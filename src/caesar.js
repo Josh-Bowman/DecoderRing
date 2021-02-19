@@ -46,7 +46,7 @@
     word.split('').forEach((letter) => {
       if (letter.match(/[a-z]/i)) {
         encoded = letter.toLowerCase().charCodeAt() + shift;
-        console.log(encoded);
+        //console.log(encoded);
         if (encoded < 97) {
           encoded = encoded + 26;
           encodedStr.push(String.fromCharCode(encoded));
