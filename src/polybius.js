@@ -153,7 +153,6 @@ function polybius(input, encode = true) {
   }
   return result.join("");
 }
-
   return {
     polybius,
   };

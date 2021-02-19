@@ -18,7 +18,9 @@ describe('caesar', () => {
       const expected = caesar('THINKFUL', 3);
       expect(actual).to.equal(expected);
     });
-    //it
+    it('Should expect ("Zebra Magazine", 3) to return "cheud pdjdclqh"', () => {
+      expect(caesar("Zebra Magazine", 3)).to.eql("cheud pdjdclqh")
+    })
   });
 
   describe("caesar", () => {

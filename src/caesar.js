@@ -3,7 +3,7 @@
 // Only add code (e.g., helper methods, variables, etc.) within the scope
 // of the anonymous function on line 6
 
-//const caesarModule = (function () {
+const caesarModule = (function () {
   // you can add any code you want within this function scope
   //const alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
   /*
@@ -79,8 +79,8 @@
     });
   }
   return encodedStr.join('');
-  
-  
 };
+return {caesar};
+})();
 
-module.exports = caesar;
+module.exports = caesarModule.caesar;
